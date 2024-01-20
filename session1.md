@@ -10,4 +10,4 @@
 <h3>نصب و فعال سازی Django</h3>
 <p>برای نصب جنگو با دستور زیر ابتدا باید جنگو را روی سیستم نصب کنیم</p>
 <p>دستور زیر را در ترمینال تایپ کنید و enter بزنید</p>
-<p style="color:red">pip install django</p>
+<p>pip install django</p>
