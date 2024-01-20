@@ -27,8 +27,8 @@
 <p>برای نصب جنگو با دستور زیر ابتدا باید جنگو را روی سیستم نصب کنیم</p>
 <p>دستور زیر را در ترمینال تایپ کنید و enter بزنید</p>
 <div class="tooltip">
-    <button onclick="myFunction('185.51.200.2')" onmouseout="outFunc('185.51.200.2')">
-      <span class="tooltiptext" id="185.51.200.2">برای کپی کردن کلیک کنید</span>
+    <button onclick="myFunction('pip install django')" onmouseout="outFunc('185.51.200.2')">
+      <span class="tooltiptext" id="pip install django">برای کپی کردن کلیک کنید</span>
       pip install django
     </button>
 </div>
