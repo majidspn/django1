@@ -1,3 +1,4 @@
+<html>
 <head>
     <script>
     function myFunction(text) {
@@ -13,6 +14,7 @@
     }
     </script>
 </head>
+<body>
 <h3>در این جلسه چه مواردی آموزش داده میشود</h3>
 <ol>
     <li>نصب و فعالسازی Django</li>
@@ -30,3 +32,5 @@
       pip install django
     </button>
 </div>
+</body>
+</html>
