@@ -47,3 +47,13 @@ urlpatterns = [<br>
 ]
 
 </p>
+<p>
+  در بالا اگر books را بعد از 127.0.0.1:8000 وارد کرده باشیم و دیگر چیز دیگری وارد نکنیم خود به خود ما را به تابع homepage در فایل views پاس میدهد. بنابر این نیاز است تا در views.py در همین پوشه books تابع homepage را بسازیم
+</p>
+<h3>اصلاح فایل views.py</h3>
+<p>وارد views.py می شویم و تابع homepage را مطابق زیر می سازیم. نکته اینکه در اینجا نیاز است تا render را import کرده باشیم</p>
+<p>
+  from django.shortcuts import render <br>
+def homepage(request):<br>
+    return render(request,"home.html")<br>
+</p>
