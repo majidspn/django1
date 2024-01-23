@@ -57,3 +57,7 @@ urlpatterns = [<br>
 def homepage(request):<br>
     &nbsp;&nbsp;&nbsp;&nbsp;return render(request,"home.html")<br>
 </p>
+<p>نکته اینکه تابع render سه ورودی میپذیرد که فعلا از ورودی سوم استفاده نکرده ایم</p>
+<p>همانطور که میبینید render قرار است که صفحه ی home.html را load کند</p>
+<h3>ساخت یک فایل html ساده برای homepage</h3>
+
