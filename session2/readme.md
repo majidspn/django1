@@ -35,3 +35,15 @@ urlpatterns = [<br>
 ]
 </p>
 <p>در اینجا ما بعد از اجرای برنامه روی liveserver مثلا روی پورت 8000 url ثابت 127.0.0.1:8000 را داریم که حال اگر یک /books به آن اضافه کنیم باید به سراغ books برود و urls موجود در اپ book را چک کند. بنابر این نیاز است تا در اپ books یک urls.py بسازیم</p>
+<h3>ساخت urls.py در اپ books</h3>
+<p>یک فایل urls.py در این پوشه ایجاد میکنیم. در اینجا ما فایل views.py را نیاز است که از همین پوشه ی book در برنامه import کنیم تا بتوانیم از تابعی که در آن برای اکشن خاصی در این url برنامه نویسی کنیم. بنابر این فایل urls.py در پوشه books تا به اینجای کار مطابق زیر خواهد بود</p>
+<p>
+  from django.contrib import admin<br>
+from django.urls import path<br>
+from . import views<br>
+
+urlpatterns = [<br>
+    path('',views.homepage,name="homepage")<br>
+]
+
+</p>
