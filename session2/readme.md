@@ -55,5 +55,5 @@ urlpatterns = [<br>
 <p>
   from django.shortcuts import render <br>
 def homepage(request):<br>
-    return render(request,"home.html")<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;return render(request,"home.html")<br>
 </p>
