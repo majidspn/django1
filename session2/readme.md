@@ -34,3 +34,4 @@ urlpatterns = [<br>
     path('books',include("books.urls"))<br>
 ]
 </p>
+<p>در اینجا ما بعد از اجرای برنامه روی liveserver مثلا روی پورت 8000 url ثابت 127.0.0.1:8000 را داریم که حال اگر یک /books به آن اضافه کنیم باید به سراغ books برود و urls موجود در اپ book را چک کند. بنابر این نیاز است تا در اپ books یک urls.py بسازیم</p>
