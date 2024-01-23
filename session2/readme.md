@@ -20,3 +20,17 @@
     
 ]
 </p>
+<h3>تصحیح urls.py در پوشه config</h3>
+<p>
+حال میخواهیم اولین url سایت خود را بسازیم. برای اینکار باید وارد پوشه config و سپس وارد urls.py شویم. در اینجا include را import میکنیم و در قسمت path مسیر جدید را وارد می کنیم.
+این کار را مطابق زیر انجام می دهیم. (url بخش ادمین خودکار در این فایل موجود بوده است)
+</p>
+<p>
+  from django.contrib import admin<br>
+from django.urls import path,include<br>
+
+urlpatterns = [<br>
+    path('admin/', admin.site.urls),<br>
+    path('books',include("books.urls"))<br>
+]
+</p>
